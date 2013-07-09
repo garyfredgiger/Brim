@@ -1,0 +1,45 @@
+// test4.idl : IDL source for test4
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (test4.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(a817e7a2-43fa-11d0-9e44-00aa00b6770a),
+	dual,
+	helpstring("IComponentRegistrar Interface"),
+	pointer_default(unique)
+]
+interface IComponentRegistrar : IDispatch
+{
+	[id(1)]	HRESULT Attach([in] BSTR bstrPath);
+	[id(2)]	HRESULT RegisterAll();
+	[id(3)]	HRESULT UnregisterAll();
+	[id(4)]	HRESULT GetComponents([out] SAFEARRAY(BSTR)* pbstrCLSIDs, [out] SAFEARRAY(BSTR)* pbstrDescriptions);
+	[id(5)]	HRESULT RegisterComponent([in] BSTR bstrCLSID);
+	[id(6)] HRESULT UnregisterComponent([in] BSTR bstrCLSID);
+};
+
+[
+	uuid(66D9A563-CCFD-494D-B847-C44CF9C92C1C),
+	version(1.0),
+	helpstring("test4 1.0 Type Library"),
+	custom(a817e7a1-43fa-11d0-9e44-00aa00b6770a,"{5814101D-D1BA-4FE2-A705-C8B506203AAF}")
+]
+library test4Lib
+{
+	importlib("stdole2.tlb");
+
+	[
+		uuid(5814101D-D1BA-4FE2-A705-C8B506203AAF),
+		helpstring("ComponentRegistrar Class")
+	]
+	coclass CompReg
+	{
+		[default] interface IComponentRegistrar;
+	};
+};

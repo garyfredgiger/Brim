@@ -1,0 +1,5 @@
+C:\Documents and Settings\t-mohara\My Documents\Visual Studio 2008\Projects\BrailleImaging\BrailleImaging\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\t-mohara\My Documents\Visual Studio 2008\Projects\BrailleImaging\BrailleImaging\bin\Debug\BrailleImaging.exe
+C:\Documents and Settings\t-mohara\My Documents\Visual Studio 2008\Projects\BrailleImaging\BrailleImaging\bin\Debug\BrailleImaging.pdb
+C:\Documents and Settings\t-mohara\My Documents\Visual Studio 2008\Projects\BrailleImaging\BrailleImaging\obj\Debug\BrailleImaging.exe
+C:\Documents and Settings\t-mohara\My Documents\Visual Studio 2008\Projects\BrailleImaging\BrailleImaging\obj\Debug\BrailleImaging.pdb

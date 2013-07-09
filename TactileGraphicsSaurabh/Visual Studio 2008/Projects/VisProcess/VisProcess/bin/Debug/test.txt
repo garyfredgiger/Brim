@@ -1,0 +1,5568 @@
+
+(0, 0)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(1, 0)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(2, 0)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(3, 0)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(4, 0)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(5, 0)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(6, 0)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(7, 0)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(8, 0)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(9, 0)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(10, 0)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(11, 0)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(12, 0)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(13, 0)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(14, 0)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(15, 0)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(16, 0)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(17, 0)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(18, 0)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(19, 0)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(20, 0)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(21, 0)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(22, 0)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(23, 0)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(24, 0)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(25, 0)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(26, 0)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(27, 0)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(28, 0)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(0, 1)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(1, 1)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(2, 1)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(3, 1)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(4, 1)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(5, 1)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(6, 1)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(7, 1)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(8, 1)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(9, 1)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(10, 1)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(11, 1)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(12, 1)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(13, 1)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(14, 1)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(15, 1)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(16, 1)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(17, 1)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(18, 1)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(19, 1)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(20, 1)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(21, 1)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(22, 1)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(23, 1)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(24, 1)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(25, 1)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(26, 1)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(27, 1)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(28, 1)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(0, 2)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(1, 2)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(2, 2)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(3, 2)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(4, 2)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(5, 2)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(6, 2)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(7, 2)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(8, 2)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(9, 2)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(10, 2)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(11, 2)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(12, 2)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(13, 2)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(14, 2)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(15, 2)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(16, 2)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(17, 2)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(18, 2)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(19, 2)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(20, 2)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(21, 2)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(22, 2)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(23, 2)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(24, 2)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(25, 2)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(26, 2)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(27, 2)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(28, 2)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(0, 3)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(1, 3)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(2, 3)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(3, 3)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(4, 3)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(5, 3)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(6, 3)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(7, 3)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(8, 3)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(9, 3)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(10, 3)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(11, 3)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(12, 3)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(13, 3)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(14, 3)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(15, 3)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(16, 3)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(17, 3)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(18, 3)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(19, 3)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(20, 3)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(21, 3)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(22, 3)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(23, 3)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(24, 3)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(25, 3)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(26, 3)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(27, 3)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(28, 3)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(0, 4)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(1, 4)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(2, 4)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(3, 4)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(4, 4)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(5, 4)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(6, 4)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(7, 4)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(8, 4)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(9, 4)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(10, 4)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(11, 4)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(12, 4)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(13, 4)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(14, 4)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(15, 4)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(16, 4)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(17, 4)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(18, 4)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(19, 4)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(20, 4)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(21, 4)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(22, 4)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(23, 4)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(24, 4)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(25, 4)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(26, 4)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(27, 4)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(28, 4)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(0, 5)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(1, 5)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(2, 5)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(3, 5)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(4, 5)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(5, 5)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(6, 5)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(7, 5)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(8, 5)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(9, 5)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(10, 5)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(11, 5)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(12, 5)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(13, 5)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(14, 5)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(15, 5)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(16, 5)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(17, 5)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(18, 5)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(19, 5)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(20, 5)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(21, 5)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(22, 5)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(23, 5)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(24, 5)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(25, 5)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(26, 5)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(27, 5)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(28, 5)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(0, 6)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(1, 6)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(2, 6)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(3, 6)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(4, 6)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(5, 6)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(6, 6)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(7, 6)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(8, 6)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(9, 6)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(10, 6)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(11, 6)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(12, 6)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(13, 6)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(14, 6)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(15, 6)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6True
+
+(16, 6)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(17, 6)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(18, 6)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(19, 6)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(20, 6)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(21, 6)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(22, 6)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(23, 6)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(24, 6)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(25, 6)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(26, 6)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(27, 6)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(28, 6)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(0, 7)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(1, 7)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(2, 7)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(3, 7)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(4, 7)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(5, 7)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(6, 7)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(7, 7)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(8, 7)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(9, 7)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(10, 7)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(11, 7)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(12, 7)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(13, 7)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(14, 7)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(15, 7)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5True
+Dot 6True
+
+(16, 7)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(17, 7)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(18, 7)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(19, 7)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(20, 7)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(21, 7)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(22, 7)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5True
+Dot 6False
+
+(23, 7)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(24, 7)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(25, 7)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(26, 7)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(27, 7)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(28, 7)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(0, 8)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(1, 8)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(2, 8)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(3, 8)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(4, 8)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(5, 8)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(6, 8)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(7, 8)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(8, 8)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6True
+
+(9, 8)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(10, 8)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4True
+Dot 5False
+Dot 6False
+
+(11, 8)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(12, 8)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(13, 8)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(14, 8)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(15, 8)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(16, 8)
+Dot 1False
+Dot 2True
+Dot 3True
+Dot 4False
+Dot 5False
+Dot 6False
+
+(17, 8)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(18, 8)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(19, 8)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4True
+Dot 5False
+Dot 6False
+
+(20, 8)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(21, 8)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(22, 8)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(23, 8)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(24, 8)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(25, 8)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(26, 8)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(27, 8)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(28, 8)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(0, 9)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(1, 9)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(2, 9)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(3, 9)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(4, 9)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(5, 9)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(6, 9)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(7, 9)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(8, 9)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(9, 9)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(10, 9)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(11, 9)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(12, 9)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(13, 9)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(14, 9)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(15, 9)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(16, 9)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(17, 9)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(18, 9)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(19, 9)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(20, 9)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(21, 9)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(22, 9)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(23, 9)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(24, 9)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(25, 9)
+Dot 1False
+Dot 2True
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(26, 9)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(27, 9)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(28, 9)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(0, 10)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(1, 10)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(2, 10)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(3, 10)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(4, 10)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(5, 10)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(6, 10)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(7, 10)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(8, 10)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(9, 10)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(10, 10)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(11, 10)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(12, 10)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(13, 10)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(14, 10)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(15, 10)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(16, 10)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(17, 10)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(18, 10)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(19, 10)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(20, 10)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(21, 10)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(22, 10)
+Dot 1False
+Dot 2True
+Dot 3False
+Dot 4True
+Dot 5True
+Dot 6False
+
+(23, 10)
+Dot 1False
+Dot 2True
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(24, 10)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(25, 10)
+Dot 1False
+Dot 2False
+Dot 3True
+Dot 4False
+Dot 5False
+Dot 6False
+
+(26, 10)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(27, 10)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(28, 10)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(0, 11)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(1, 11)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(2, 11)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(3, 11)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(4, 11)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(5, 11)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(6, 11)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5True
+Dot 6True
+
+(7, 11)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(8, 11)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(9, 11)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(10, 11)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(11, 11)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(12, 11)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(13, 11)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(14, 11)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(15, 11)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(16, 11)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5True
+Dot 6False
+
+(17, 11)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6True
+
+(18, 11)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(19, 11)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5True
+Dot 6True
+
+(20, 11)
+Dot 1False
+Dot 2False
+Dot 3True
+Dot 4False
+Dot 5False
+Dot 6False
+
+(21, 11)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(22, 11)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5True
+Dot 6False
+
+(23, 11)
+Dot 1True
+Dot 2True
+Dot 3True
+Dot 4False
+Dot 5False
+Dot 6True
+
+(24, 11)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(25, 11)
+Dot 1True
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5True
+Dot 6False
+
+(26, 11)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(27, 11)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(28, 11)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(0, 12)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(1, 12)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(2, 12)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(3, 12)
+Dot 1False
+Dot 2False
+Dot 3True
+Dot 4False
+Dot 5True
+Dot 6False
+
+(4, 12)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(5, 12)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(6, 12)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(7, 12)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(8, 12)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(9, 12)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(10, 12)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(11, 12)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(12, 12)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(13, 12)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(14, 12)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(15, 12)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(16, 12)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(17, 12)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(18, 12)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(19, 12)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6True
+
+(20, 12)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4True
+Dot 5False
+Dot 6False
+
+(21, 12)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(22, 12)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5True
+Dot 6False
+
+(23, 12)
+Dot 1False
+Dot 2True
+Dot 3False
+Dot 4True
+Dot 5False
+Dot 6False
+
+(24, 12)
+Dot 1False
+Dot 2True
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6True
+
+(25, 12)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(26, 12)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(27, 12)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(28, 12)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(0, 13)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(1, 13)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(2, 13)
+Dot 1True
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(3, 13)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(4, 13)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(5, 13)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(6, 13)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(7, 13)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(8, 13)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(9, 13)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(10, 13)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(11, 13)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(12, 13)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(13, 13)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(14, 13)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(15, 13)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(16, 13)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(17, 13)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(18, 13)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(19, 13)
+Dot 1False
+Dot 2True
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(20, 13)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(21, 13)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(22, 13)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(23, 13)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(24, 13)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(25, 13)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(26, 13)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(27, 13)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(28, 13)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(0, 14)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(1, 14)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(2, 14)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(3, 14)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(4, 14)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(5, 14)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(6, 14)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(7, 14)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(8, 14)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(9, 14)
+Dot 1False
+Dot 2True
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(10, 14)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(11, 14)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(12, 14)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(13, 14)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(14, 14)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5True
+Dot 6False
+
+(15, 14)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4True
+Dot 5False
+Dot 6False
+
+(16, 14)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(17, 14)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(18, 14)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(19, 14)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(20, 14)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(21, 14)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(22, 14)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5True
+Dot 6True
+
+(23, 14)
+Dot 1False
+Dot 2True
+Dot 3False
+Dot 4True
+Dot 5False
+Dot 6False
+
+(24, 14)
+Dot 1False
+Dot 2True
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(25, 14)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(26, 14)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(27, 14)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(28, 14)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(0, 15)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(1, 15)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(2, 15)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(3, 15)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(4, 15)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6True
+
+(5, 15)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(6, 15)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(7, 15)
+Dot 1False
+Dot 2True
+Dot 3False
+Dot 4True
+Dot 5False
+Dot 6False
+
+(8, 15)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(9, 15)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(10, 15)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(11, 15)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(12, 15)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(13, 15)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(14, 15)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(15, 15)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(16, 15)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(17, 15)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(18, 15)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(19, 15)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(20, 15)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(21, 15)
+Dot 1False
+Dot 2False
+Dot 3True
+Dot 4False
+Dot 5False
+Dot 6False
+
+(22, 15)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(23, 15)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(24, 15)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(25, 15)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(26, 15)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(27, 15)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(28, 15)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(0, 16)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(1, 16)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(2, 16)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(3, 16)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(4, 16)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4True
+Dot 5False
+Dot 6False
+
+(5, 16)
+Dot 1True
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5True
+Dot 6True
+
+(6, 16)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(7, 16)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(8, 16)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(9, 16)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(10, 16)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(11, 16)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(12, 16)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(13, 16)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(14, 16)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(15, 16)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(16, 16)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(17, 16)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5True
+Dot 6True
+
+(18, 16)
+Dot 1False
+Dot 2True
+Dot 3False
+Dot 4False
+Dot 5True
+Dot 6False
+
+(19, 16)
+Dot 1False
+Dot 2False
+Dot 3True
+Dot 4False
+Dot 5False
+Dot 6True
+
+(20, 16)
+Dot 1False
+Dot 2False
+Dot 3True
+Dot 4False
+Dot 5False
+Dot 6False
+
+(21, 16)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(22, 16)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(23, 16)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(24, 16)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(25, 16)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(26, 16)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(27, 16)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(28, 16)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(0, 17)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(1, 17)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(2, 17)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(3, 17)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(4, 17)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(5, 17)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(6, 17)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(7, 17)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(8, 17)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(9, 17)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(10, 17)
+Dot 1False
+Dot 2True
+Dot 3True
+Dot 4False
+Dot 5False
+Dot 6True
+
+(11, 17)
+Dot 1False
+Dot 2False
+Dot 3True
+Dot 4False
+Dot 5False
+Dot 6True
+
+(12, 17)
+Dot 1False
+Dot 2False
+Dot 3True
+Dot 4False
+Dot 5False
+Dot 6False
+
+(13, 17)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(14, 17)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(15, 17)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(16, 17)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(17, 17)
+Dot 1False
+Dot 2True
+Dot 3False
+Dot 4True
+Dot 5False
+Dot 6False
+
+(18, 17)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(19, 17)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4True
+Dot 5False
+Dot 6False
+
+(20, 17)
+Dot 1True
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(21, 17)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(22, 17)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(23, 17)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(24, 17)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(25, 17)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(26, 17)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(27, 17)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(28, 17)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(0, 18)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(1, 18)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(2, 18)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(3, 18)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(4, 18)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(5, 18)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(6, 18)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(7, 18)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(8, 18)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(9, 18)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(10, 18)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(11, 18)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(12, 18)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(13, 18)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(14, 18)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(15, 18)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(16, 18)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(17, 18)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(18, 18)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(19, 18)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(20, 18)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(21, 18)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(22, 18)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(23, 18)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(24, 18)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(25, 18)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(26, 18)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(27, 18)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(28, 18)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(0, 19)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(1, 19)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(2, 19)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(3, 19)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(4, 19)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(5, 19)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(6, 19)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(7, 19)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(8, 19)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(9, 19)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(10, 19)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(11, 19)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(12, 19)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(13, 19)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(14, 19)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(15, 19)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(16, 19)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(17, 19)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(18, 19)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(19, 19)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(20, 19)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(21, 19)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(22, 19)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(23, 19)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(24, 19)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(25, 19)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(26, 19)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(27, 19)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(28, 19)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(0, 20)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(1, 20)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(2, 20)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(3, 20)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(4, 20)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(5, 20)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(6, 20)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(7, 20)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(8, 20)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(9, 20)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(10, 20)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(11, 20)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(12, 20)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(13, 20)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(14, 20)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(15, 20)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(16, 20)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(17, 20)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(18, 20)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(19, 20)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(20, 20)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(21, 20)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(22, 20)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(23, 20)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(24, 20)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(25, 20)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(26, 20)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(27, 20)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(28, 20)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(0, 21)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(1, 21)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(2, 21)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(3, 21)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(4, 21)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(5, 21)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(6, 21)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(7, 21)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(8, 21)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(9, 21)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(10, 21)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(11, 21)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(12, 21)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(13, 21)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(14, 21)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(15, 21)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(16, 21)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(17, 21)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(18, 21)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(19, 21)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(20, 21)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(21, 21)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(22, 21)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(23, 21)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(24, 21)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(25, 21)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(26, 21)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(27, 21)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(28, 21)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(0, 22)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(1, 22)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(2, 22)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(3, 22)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(4, 22)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(5, 22)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(6, 22)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(7, 22)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(8, 22)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(9, 22)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(10, 22)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(11, 22)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(12, 22)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(13, 22)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(14, 22)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(15, 22)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(16, 22)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(17, 22)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(18, 22)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(19, 22)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(20, 22)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(21, 22)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(22, 22)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(23, 22)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(24, 22)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(25, 22)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(26, 22)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(27, 22)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(28, 22)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(0, 23)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(1, 23)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(2, 23)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(3, 23)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(4, 23)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(5, 23)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(6, 23)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(7, 23)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(8, 23)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(9, 23)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(10, 23)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(11, 23)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(12, 23)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(13, 23)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(14, 23)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(15, 23)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(16, 23)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(17, 23)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(18, 23)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(19, 23)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(20, 23)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(21, 23)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(22, 23)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(23, 23)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(24, 23)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(25, 23)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(26, 23)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(27, 23)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False
+
+(28, 23)
+Dot 1False
+Dot 2False
+Dot 3False
+Dot 4False
+Dot 5False
+Dot 6False

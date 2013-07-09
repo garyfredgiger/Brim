@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "gameinstaller", "gameinstaller\gameinstaller.vdproj", "{A89B8046-6801-4700-8997-516F859E8EC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A89B8046-6801-4700-8997-516F859E8EC5}.Debug|Default.ActiveCfg = Debug
+		{A89B8046-6801-4700-8997-516F859E8EC5}.Debug|Default.Build.0 = Debug
+		{A89B8046-6801-4700-8997-516F859E8EC5}.Release|Default.ActiveCfg = Release
+		{A89B8046-6801-4700-8997-516F859E8EC5}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "game", "game\game.vcproj", "{268C4FC2-01BB-442D-BCE2-2D6947247E23}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "gameInstall3r", "gameInstall3r\gameInstall3r.vdproj", "{62BCD045-9EB2-4763-AC94-D324F5F0A208}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{268C4FC2-01BB-442D-BCE2-2D6947247E23}.Debug|Win32.ActiveCfg = Debug|Win32
+		{268C4FC2-01BB-442D-BCE2-2D6947247E23}.Debug|Win32.Build.0 = Debug|Win32
+		{268C4FC2-01BB-442D-BCE2-2D6947247E23}.Release|Win32.ActiveCfg = Release|Win32
+		{268C4FC2-01BB-442D-BCE2-2D6947247E23}.Release|Win32.Build.0 = Release|Win32
+		{62BCD045-9EB2-4763-AC94-D324F5F0A208}.Debug|Win32.ActiveCfg = Debug
+		{62BCD045-9EB2-4763-AC94-D324F5F0A208}.Release|Win32.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
