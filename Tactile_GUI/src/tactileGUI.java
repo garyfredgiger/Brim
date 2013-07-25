@@ -2,11 +2,17 @@ import java.awt.Container;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.geom.AffineTransform;
+import java.awt.image.AffineTransformOp;
+import java.awt.image.BufferedImage;
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.imageio.ImageIO;
 import javax.swing.*;        
  
 @SuppressWarnings("serial")
@@ -21,11 +27,15 @@ public class tactileGUI extends JFrame implements ActionListener {
 	JButton next;
 	JButton pick_one;
 	
+	JLabel picLabel;
 	JTextField searchbox;
 	File image_lib;
+	File fetchd_file;
+	String searchstr;
 	
 	public tactileGUI(){
 		
+		searchstr = null;
 		right = new JPanel();
 		left = new JPanel();
 		
@@ -35,6 +45,8 @@ public class tactileGUI extends JFrame implements ActionListener {
 		searchbox = new JTextField();
 		next = new JButton();
 		pick_one = new JButton();
+		
+		image_lib = new File("C:\\Users\\Poornima\\Pictures");
 		
 		Container pane = this.getContentPane();
 		pane.setLayout(null);
@@ -63,7 +75,7 @@ public class tactileGUI extends JFrame implements ActionListener {
 		
 		searchbox.setSize(900,40);
 		searchbox.setLocation(20,20);
-		searchbox.setFont(new Font("Arial", Font.BOLD,20));
+		searchbox.setFont(new Font("Arial",Font.BOLD,20));
 		
 		pane.add(left);
 		pane.add(right);
@@ -89,7 +101,7 @@ public class tactileGUI extends JFrame implements ActionListener {
 		left.add(next);
 		left.add(pick_one);
 		right.add(searchbox);
-		
+//		right.add(picLabel);
 	}
     
 	public static void main(String args[]){
@@ -97,29 +109,75 @@ public class tactileGUI extends JFrame implements ActionListener {
 		main_window.setTitle("Tactile GUI");
 		main_window.setSize(1200, 800);
 		main_window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		main_window.setVisible(true);
-		
+		main_window.setVisible(true);		
 	}
 	
 	public void actionPerformed (ActionEvent e)
-	  {
+	  {  
+		if (e.getSource() == search){			
+			searchstr = searchbox.getText();
+			if (searchstr != null){
+				System.out.println("Searching for "+searchstr);
+				fetchd_file = search_file(image_lib, searchstr);
+				System.out.println("Searched for "+searchstr);
+				if (fetchd_file != null){
+					System.out.println("Search: fetched a file");
+				}
+				System.out.println(fetchd_file);
+				BufferedImage myPicture = null;
+				BufferedImage scaledIM = null;
+				try {
+					myPicture = ImageIO.read(fetchd_file);
+				} catch (IOException e1) {
+					System.out.println(myPicture);
+					e1.printStackTrace();
+				}
+				
+				try {
+					scaledIM = getScaledImage(myPicture,820,650);
+				} catch (IOException e1) {
+					e1.printStackTrace();
+				}
+				
+				picLabel = new JLabel(new ImageIcon(scaledIM));	
+				System.out.println("here");
+				picLabel.setSize(820,650);
+				picLabel.setLocation(20,70);
+				right.add(picLabel);
+			}
+		}
+		
 		if (e.getSource() == browse){
-			
-			final JFileChooser fc = new JFileChooser();
-            image_lib = new File("C:\\Users\\Poornima\\Pictures");
-            fc.setCurrentDirectory(image_lib);
-            fc.showOpenDialog(this);
-            try {
-				Runtime.getRuntime().exec("explorer.exe C:\\Users\\Poornima\\Pictures");
+            
+            Process p1 = null;
+			String s = null;
+			String filename = null;
+			try {
+			  p1 = Runtime.getRuntime().exec("python C:\\Users\\Poornima\\Documents\\GitHub\\tactilegraphicslib\\choose_file.py " + image_lib);
 			} catch (IOException e1) {
 				System.out.println("error");
 				e1.printStackTrace();
 			}
-            
+			BufferedReader stdInput = new BufferedReader(new 
+	        InputStreamReader(p1.getInputStream()));
+	    
+	        // read the output from the command
+	        System.out.println("Here is the standard output of the command:\n");
+	        try {
+	        	while ((s = stdInput.readLine()) != null) {
+				   filename = s;
+				}
+	        	System.out.println("Browse:fetched a file:" + filename);
+			} catch (IOException e1) {
+				e1.printStackTrace();
+			}	        
 		}
 		if (e.getSource() == generate){
+
+            Process p2 = null;
+			String filename = null;
 			try {
-				Runtime.getRuntime().exec("python yourapp.py");
+			  p2 = Runtime.getRuntime().exec("python C:\\Users\\Poornima\\Documents\\GitHub\\tactilegraphicslib\\cats.py " + "");
 			} catch (IOException e1) {
 				System.out.println("error");
 				e1.printStackTrace();
@@ -129,9 +187,9 @@ public class tactileGUI extends JFrame implements ActionListener {
 	
 	public static final File search_file(File rootDir, String fileName) {
 	    File[] files = rootDir.listFiles();
-	    
 	    List<File> directories = new ArrayList<File>(files.length);
 	    for (File file : files) {
+		    System.out.println(file.getName());
 	        if (file.getName().toLowerCase().contains(fileName.toLowerCase())) {
 	            return file;
 	        } else if (file.isDirectory()) {
@@ -145,7 +203,21 @@ public class tactileGUI extends JFrame implements ActionListener {
 	            return file;
 	        }
 	    }
-
+	    
 	    return null;
+	}
+	
+	public static BufferedImage getScaledImage(BufferedImage image, int width, int height) throws IOException {
+	    int imageWidth  = image.getWidth();
+	    int imageHeight = image.getHeight();
+
+	    double scaleX = (double)width/imageWidth;
+	    double scaleY = (double)height/imageHeight;
+	    AffineTransform scaleTransform = AffineTransform.getScaleInstance(scaleX, scaleY);
+	    AffineTransformOp bilinearScaleOp = new AffineTransformOp(scaleTransform, AffineTransformOp.TYPE_BILINEAR);
+
+	    return bilinearScaleOp.filter(
+	        image,
+	        new BufferedImage(width, height, image.getType()));
 	}
 }
