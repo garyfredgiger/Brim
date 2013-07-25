@@ -1,5 +1,8 @@
 #Select a file for opening:
 import Tkinter, tkFileDialog
+import sys
+
+dirname = sys.argv[1]
 
 myFormats = [
     ('Windows Bitmap','*.bmp'),
@@ -12,6 +15,6 @@ myFormats = [
 root = Tkinter.Tk()
 root.withdraw()
 
-filename = tkFileDialog.askopenfilename(initialdir = 'C:\\',filetypes=myFormats,title='Choose a file')
+filename = tkFileDialog.askopenfilename(initialdir = dirname ,filetypes=myFormats,title='Choose a file')
 print filename
 
