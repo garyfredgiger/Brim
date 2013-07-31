@@ -1,3 +1,7 @@
+#Madeleine Clute, Aditya Kodkany, Poornima Kaniarasu 
+#July 2013
+
+
 import urllib
 import json
 import urllib2
@@ -49,22 +53,22 @@ def pullPhotos(query):
 	parser = MyHTMLParser()
 	parser.feed(response)	
 
-	print image_lib+"\\buffer\\"+query
+	print image_lib+os.sep+"buffer"+os.sep+query
 
-	if (not os.path.exists(image_lib+"\\buffer")):
-		os.mkdir(image_lib+"\\buffer") # make directory to put them in
+	if (not os.path.exists(image_lib+os.sep"buffer")):
+		os.mkdir(image_lib+os.sep+"buffer") # make directory to put them in
 
-	if (not os.path.exists(image_lib+"\\buffer\\"+query)):
-		os.mkdir(image_lib+"\\buffer\\"+query) # make directory to put them in
+	if (not os.path.exists(image_lib+os.sep+"buffer"+os.sep+query)):
+		os.mkdir(image_lib+os.sep+"buffer"+os.sep+query) # make directory to put them in
 	
 	for i in xrange(5):
 		req_cat = urllib2.Request(cat_urls[i], headers ={'User-Agent':'Chrome'})
 		response_cat = urllib2.urlopen (req_cat).read()
 		name = query + os.sep + query+str(i)+".jpg"
-		fd = open(image_lib+"\\buffer\\"+name,"wb")
+		fd = open(image_lib+os.sep+"buffer"+os.sep+name,"wb")
 		fd.write(response_cat)
 		fd.close()
-		print name, "written", "complexity is ", countComponents(image_lib+"\\buffer\\"+name)
+		print name, "written", "complexity is ", countComponents(image_lib+os.sep+"buffer"+os.sep+name)
 		
 
 	print "done"
@@ -192,6 +196,7 @@ def chooseBestPicture(d):
 	components = map(lambda i: stats[i][0], range(max_consider))
 	disjoints = map(lambda i: stats[i][2], range(max_consider))
 
+	
 	#once you have the stats to consider, get rid of the highest one from
 	#the components, the highest one from the densities, only way to override the rank
 	#is to be more than 1 std dev below the mean
@@ -199,32 +204,34 @@ def chooseBestPicture(d):
 	mean_c = avg(components)
 	stdDev_c = standardDev(components)
 	mean_d = avg(densities)
-	stdDev_d = avg(densities)
+	stdDev_d = standardDev(densities)
+	mean_disj = avg(disjoints)
+	stdDev_disj = standardDev(disjoints)
 
-	#get rid of the maxs
-	files.pop(indexMax(components))
-	densities.pop(indexMax(components))
-	disjoints.pop(indexMax(components))
-	files.pop(indexMax(densities))
 
-	#files.pop(indexMax(disjoints))
-	#densities.pop(indexMax(disjoints))
-	#calculate the relative differences
-	#return files[disjoints.index(min(disjoints))]
-	print files[disjoints.index(min(disjoints))]
-	"""
-	dists = map(lambda x : (mean_d - x > stdDev_d), densities)
+	#new idea: go for the 0th result unless another option is less than 
+	# a standard deviation below the average for that category. 
+	denst_bools =  map(lambda x : (mean_d - x > stdDev_d), densities)
+	disjoint_bools = map(lambda x : (mean_disj - x > stdDev_disj), disjoints)
+	comp_bools = map(lambda x: (mean_c - x > stdDev_c), components)
 
-	if True not in dists:
-		if (indexMin(densities) == indexMin(components)):
-			print "overridden", d
-			return files[indexMin(densities)]
-			
-		return files[0]
+	totals = [0 for f in files]
+
+	#tally for the metrics
+	for i in xrange(len(files)):
+		if denst_bools[i]:
+			totals[i] += 1
+		if disjoint_bools[i]:
+			totals[i] += 1
+		if comp_bools[i]:
+			totals[i] += 1
+
+	if (max(totals) > 0):
+		# if something seems better
+		ind = totals.index(1) #seems to work better than finding the max
+		return files[ind]
 	else:
-		return files[dists.index(True)]
-
- 	"""
+		return files[0] #default
 
 #takes in an array and gives back the percentage of non-white pixels
 def getFillStats(arr):
@@ -313,7 +320,7 @@ def countComponents(f_name):
 
 if (numberofcats == '0'):
 	print "choosing"
-	chooseBestPicture(image_lib+"\\buffer\\"+searchstr)
+	chooseBestPicture(image_lib+os.sep+"buffer"+os.sep+searchstr)
 else:
 	print "pulling"
 	pullPhotos(searchstr)
