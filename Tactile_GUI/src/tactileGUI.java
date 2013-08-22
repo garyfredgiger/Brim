@@ -20,6 +20,8 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.net.URL;
+import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -40,15 +42,27 @@ public class tactileGUI extends JFrame implements ActionListener, FocusListener,
     private AudioFormat audioFormat;
     private SourceDataLine sourceLine;
 
-	static JPanel right_1;
+    static JPanel right_1;
 	static JPanel right_2;
 	static JPanel right_3;
 	static JPanel right_4;
 	static JPanel left;
+	
+	static JLabel picLabel;
+	static JLabel dispLabel;
+	static JLabel searchLabel;
+	
 	static String [] text = {"","",""};
 	static int displaynum;
+	static int size = 2;
 	
 	JRadioButton iscaption;
+	
+	JButton small;
+	JButton medium;
+	JButton large;
+	JButton sel_size;
+	
 	JButton search;
 	JButton browse;
 	JButton generate;
@@ -64,11 +78,7 @@ public class tactileGUI extends JFrame implements ActionListener, FocusListener,
 	JFileChooser fc;
 	@SuppressWarnings("rawtypes")
 	JList flist;
-	
-	static JLabel picLabel;
-	static JLabel dispLabel;
-	static JLabel searchLabel;
-	
+
 	JTextField searchbox;
 	
 	File image_lib;
@@ -88,23 +98,44 @@ public class tactileGUI extends JFrame implements ActionListener, FocusListener,
 		right_4 = new JPanel();
 		left = new JPanel();
 		
-		search = new JButton();
-		browse = new JButton();
-		generate = new JButton();
+		search = new JButton("Search for the Image");
+		browse = new JButton("Browse the Image Library");
+		generate = new JButton("Generate the braille image preview");
 		fselect = new JButton();
-		next = new JButton();
-		compare = new JButton();
-		pick_one = new JButton();
-		print = new JButton();
+		next = new JButton("Next Image filter");
+		compare = new JButton("Compare generated images");
+		pick_one = new JButton("Choose one image from 5");
+		print = new JButton("Select Image for printing");
 		iscaption = new JRadioButton();
+		sel_size = new JButton();
+		small = new JButton("S");
+		medium = new JButton("M");
+		large = new JButton("L");
+		
+		search.getAccessibleContext().setAccessibleName("Search for the Image");
+		browse.getAccessibleContext().setAccessibleName("Browse the Image Library");
+		generate.getAccessibleContext().setAccessibleName("Generate the braille image preview");
+		next.getAccessibleContext().setAccessibleName("Next Image filter");
+		compare.getAccessibleContext().setAccessibleName("Compare generated images");
+		pick_one.getAccessibleContext().setAccessibleName("Choose one image from 5");
+		print.getAccessibleContext().setAccessibleName("Select the image for printing");
+		
+		search.setToolTipText("Search for the Image");
+		browse.setToolTipText("Browse the Image Library");
+		generate.setToolTipText("Generate the braille image preview");
+		next.setToolTipText("Next Image filter");
+		compare.setToolTipText("Compare generated images");
+		pick_one.setToolTipText("Choose one image from 5");
+		print.setToolTipText("Select the image for printing");
 		
 		searchbox = new JTextField();
-		
+		searchbox.setToolTipText("searchbox. Please type name of the object here");
 		rootpane = this.getRootPane();
 		Pane_1 = new JEditorPane();
 		Pane_2 = new JEditorPane();
 		Pane_3 = new JEditorPane();
 		
+		//Location of the image library
 		image_lib = new File("C:\\Users\\Public\\Pictures");
 		
 		pane = this.getContentPane();
@@ -113,7 +144,6 @@ public class tactileGUI extends JFrame implements ActionListener, FocusListener,
 		GL.setHgap(40);
 		GL.setVgap(40);
 		
-		iscaption.setFocusTraversalKeysEnabled(false);
 		left.setLayout(null);
 		right_1.setLayout(null);
 		right_2.setLayout(null);		
@@ -145,11 +175,30 @@ public class tactileGUI extends JFrame implements ActionListener, FocusListener,
 		browse.setSize(120,70);
 		browse.setLocation(20,100);
 		
+		sel_size.setSize(120,70);
+		sel_size.setLocation(20,260);
+		
+		small.setSize(30,50);
+		large.setSize(30,50);
+		medium.setSize(30,50);
+		
+		small.setLocation(20,270);
+		large.setLocation(110,270);
+		medium.setLocation(65,270);
+		
+		small.setEnabled(false);
+		large.setEnabled(false);
+		medium.setEnabled(false);
+		
+		small.setVisible(false);
+		large.setVisible(false);
+		medium.setVisible(false);
+		
 		generate.setSize(120,70);
-		generate.setLocation(20,260);	
+		generate.setLocation(20,340);	
 		
 		print.setSize(120,70);
-		print.setLocation(20,260);	
+		print.setLocation(20,660);	
 		print.setVisible(false);
 		print.setEnabled(false);
 
@@ -158,12 +207,11 @@ public class tactileGUI extends JFrame implements ActionListener, FocusListener,
 		compare.setVisible(false); 
 		
 		next.setSize(120,70);
-		next.setLocation(20,660);
+		next.setLocation(20,500);
 		next.setVisible(false);
 
 		fselect.setSize(0,0);
 		fselect.setLocation(150,800);
-		fselect.setFocusTraversalKeysEnabled(false);
 
 		pick_one.setSize(120,70);
 		pick_one.setLocation(20,180);
@@ -172,7 +220,7 @@ public class tactileGUI extends JFrame implements ActionListener, FocusListener,
 		searchbox.setLocation(20,20);
 		searchbox.setFont(new Font("Arial",Font.BOLD,20));
 		
-		
+		//Creating the new Braille font from the font file
 		try {
 			Font.createFont(Font.TRUETYPE_FONT,new File("Braille.ttf"));
 		} catch (FontFormatException e) {
@@ -189,6 +237,23 @@ public class tactileGUI extends JFrame implements ActionListener, FocusListener,
 		search.setText("SEARCH");
 		search.addActionListener(this);
 		search.addFocusListener(this);
+		
+		small.setText("<html>S</html>");
+		small.addActionListener(this);
+		small.addFocusListener(this);
+		small.setFont(new Font("Arial",Font.PLAIN,15));
+		
+		large.setText("<html>L</html>");
+		large.addActionListener(this);
+		large.addFocusListener(this);
+		
+		medium.setText("<html>M</html>");
+		medium.addActionListener(this);
+		medium.addFocusListener(this);
+		
+		sel_size.setText("<html>SELECT IMAGE SIZE</html>");
+		sel_size.addActionListener(this);
+		sel_size.addFocusListener(this);
 		
 		browse.setText("<html>BROWSE THE LIBRARY</html>");
 		browse.addActionListener(this);
@@ -210,12 +275,11 @@ public class tactileGUI extends JFrame implements ActionListener, FocusListener,
 		next.setText("NEXT");
 		next.addActionListener(this);		
 		next.addFocusListener(this);
+		this.setTitle("Tactile Graphics");
 		
-		fselect.addActionListener(this);
 		searchbox.addFocusListener(this);
 		
-		pick_one.setText("<html>CHOOSE FROM 5</html>");
-	
+		pick_one.setText("<html>CHOOSE FROM 5</html>");	
 		pick_one.addActionListener(this);
 		pick_one.addFocusListener(this);
 		
@@ -225,7 +289,6 @@ public class tactileGUI extends JFrame implements ActionListener, FocusListener,
 		    }
 		}); 
 		
-		searchbox.grabFocus();
 		right_1.add(searchbox);
 		left.add(search);
 		left.add(browse);
@@ -234,6 +297,10 @@ public class tactileGUI extends JFrame implements ActionListener, FocusListener,
 		left.add(next);
 		left.add(pick_one);
 		left.add(print);
+		left.add(sel_size);
+		left.add(small);
+		left.add(large);
+		left.add(medium);
 		
 		rootpane.setDefaultButton(search);
 		searchbox.requestFocus();
@@ -241,7 +308,7 @@ public class tactileGUI extends JFrame implements ActionListener, FocusListener,
     
 	public static void main(String args[]){
 		tactileGUI main_window = new tactileGUI();
-		main_window.setTitle("Tactile GUI");
+		main_window.setTitle("Tactile Graphics");
 		main_window.setSize(1200, 800);
 		main_window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		main_window.setVisible(true);		
@@ -264,11 +331,24 @@ public class tactileGUI extends JFrame implements ActionListener, FocusListener,
 			}
 		}
 		if (e.getSource() == search){
+			
+			sel_size.setEnabled(true);
+			sel_size.setVisible(true);
+			
+			small.setEnabled(false);
+			large.setEnabled(false);
+			medium.setEnabled(false);
+			
+			small.setVisible(false);
+			large.setVisible(false);
+			medium.setVisible(false);
+			
 			pane.removeAll();
 			pane.add(left);
 			pane.add(right_1);
 			pane.repaint();
 			searchstr = searchbox.getText();
+			searchstr.replaceAll("\\W", "");
 			if (searchstr != null){
 				System.out.println("Searching for "+searchstr);
 				fetchd_file = search_file(image_lib, searchstr);
@@ -278,6 +358,23 @@ public class tactileGUI extends JFrame implements ActionListener, FocusListener,
 				else{
 					Process p2 = null;
 					Process p5 = null;
+					
+					try {
+					    URL url = new URL("http://www.google.com");
+					    URLConnection connection = url.openConnection();
+
+					    if(connection.getContentLength() == -1){
+					          System.out.println("Failed to verify connection");
+					          playSound("noimage.wav");
+					          searchbox.requestFocusInWindow();
+					          searchstr = null;
+					          return;
+					    }
+					  } 
+					  catch (IOException e1) { 
+					      e1.printStackTrace();
+					  }
+					
 					try {
 						if (!new File(image_lib.getAbsolutePath()+"\\buffer\\"+searchstr).exists()){
 						p2 = Runtime.getRuntime().exec("python pick_animal.py 1 " + searchstr +" "+ image_lib.getAbsolutePath());
@@ -316,7 +413,7 @@ public class tactileGUI extends JFrame implements ActionListener, FocusListener,
 				       
 				
 				System.out.println(fetchd_file);
-				
+				playSound("beep.wav");
 				displayIM(fetchd_file);
 				search.requestFocusInWindow();
 			}
@@ -328,6 +425,17 @@ public class tactileGUI extends JFrame implements ActionListener, FocusListener,
 		
 		if (e.getSource() == browse){
             
+			sel_size.setEnabled(true);
+			sel_size.setVisible(true);
+			
+			small.setEnabled(false);
+			large.setEnabled(false);
+			medium.setEnabled(false);
+			
+			small.setVisible(false);
+			large.setVisible(false);
+			medium.setVisible(false);
+			
 			pane.removeAll();
 			pane.add(left);
 			pane.add(right_1);
@@ -354,9 +462,23 @@ public class tactileGUI extends JFrame implements ActionListener, FocusListener,
 			}	    
 	        filename.replace('/', '\\');
 	        fetchd_file = new File(filename);
+	        searchstr = fetchd_file.getName().replaceAll(".jpg", "");
+	        searchstr.replaceAll(".png", "");
+	        searchstr.replaceAll(".bmp", "");
+	        searchstr.replaceAll(".JPG", "");
+	 
+	        System.out.println(searchstr);
 	        displayIM(fetchd_file);
 		}
 		if (e.getSource() == generate){
+			
+			small.setEnabled(false);
+			large.setEnabled(false);
+			medium.setEnabled(false);
+			
+			small.setVisible(true);
+			large.setVisible(true);
+			medium.setVisible(true);
 			
 			if(iscaption.isSelected()){
 				tfcap = "false"; 
@@ -364,14 +486,12 @@ public class tactileGUI extends JFrame implements ActionListener, FocusListener,
 			Process p4 = null;
 			Process p7 = null;
 			Process p6 = null;
-			search.requestFocusInWindow();
 			
 			System.out.println(fetchd_file.getAbsolutePath());
 			try {
-			  p4 = Runtime.getRuntime().exec("python filter.py " + fetchd_file.getAbsolutePath()+ " C:\\out\\"+searchstr+"_1.txt 1 "+searchstr+" "+tfcap);
-			  p6 = Runtime.getRuntime().exec("python filter.py " + fetchd_file.getAbsolutePath()+ " C:\\out\\"+searchstr+"_2.txt 2 "+searchstr+" "+tfcap);
-			  p7 = Runtime.getRuntime().exec("python filter.py " + fetchd_file.getAbsolutePath()+ " C:\\out\\"+searchstr+"_3.txt 3 "+searchstr+" "+tfcap);
-
+			  p4 = Runtime.getRuntime().exec("python filter.py " + fetchd_file.getAbsolutePath()+ " C:\\out\\"+searchstr+"_1.txt 1 "+searchstr+" "+tfcap+ " "+size);
+			  p6 = Runtime.getRuntime().exec("python filter.py " + fetchd_file.getAbsolutePath()+ " C:\\out\\"+searchstr+"_2.txt 2 "+searchstr+" "+tfcap+ " "+size);
+			  p7 = Runtime.getRuntime().exec("python filter.py " + fetchd_file.getAbsolutePath()+ " C:\\out\\"+searchstr+"_3.txt 3 "+searchstr+" "+tfcap+ " "+size);
 			} catch (IOException e1) {
 				System.out.println("error");
 				e1.printStackTrace();
@@ -419,12 +539,11 @@ public class tactileGUI extends JFrame implements ActionListener, FocusListener,
 			print.setVisible(true);
 			print.setEnabled(true);
 			playSound("beep.wav");
-			compare.requestFocusInWindow();
+			next.requestFocusInWindow();
 			
 		}
 		
 		if (e.getSource() == next){
-			next.requestFocusInWindow();
 			if(displaynum == 3){
 				displaynum = 1;
 				}
@@ -433,27 +552,64 @@ public class tactileGUI extends JFrame implements ActionListener, FocusListener,
 			}
 			displayPreview(text[displaynum-1],displaynum);
 			playSound("beep.wav");
+			next.requestFocusInWindow();
+			next.requestFocus(true);
+			next.grabFocus();
+			next.revalidate();
 		}
 		
 		if (e.getSource() == print){
-			System.out.println("println");
+			int filenum = 0;
 			for (int i = 1;i<4;i++){
 				File del = new File("C:\\out\\"+searchstr+"_"+i+".txt");
 				if (i != displaynum){
 					del.delete();
 				}
 				else{
-					del.renameTo(new File("C:\\out\\"+searchstr+".txt"));
+					boolean check = new File("C:\\out\\"+searchstr+".txt").exists();
+					System.out.println(searchstr);
+					System.out.println(check);
+					if (!check){
+							del.renameTo(new File("C:\\out\\"+searchstr+".txt"));
+						}
+					else{
+					  filenum = 1;	
+					  while(true){
+						boolean check2 = new File("C:\\out\\"+searchstr+filenum+".txt").exists();
+						if (!check2)
+						{
+							del.renameTo(new File("C:\\out\\"+searchstr+filenum+".txt"));
+							break;
+						}
+						else{
+							filenum += 1;
+						}
+					  }
+					}
 				}
-				
-				
 			}						
 			try {
-				Runtime.getRuntime().exec("notepad C:\\out\\"+searchstr+".txt");
+				if (filenum > 0){
+					Runtime.getRuntime().exec("notepad C:\\out\\"+searchstr+filenum+".txt");
+					filenum = 0;
+				}
+				else{
+					Runtime.getRuntime().exec("notepad C:\\out\\"+searchstr+".txt");
+				}
 			} catch (IOException e1) {
 				// Auto-generated catch block
 				e1.printStackTrace();
 			}
+
+			searchstr = null;
+			searchbox.setText(null);
+			pane.removeAll();
+			pane.add(left);
+			right_1.remove(picLabel);
+			pane.add(right_1);
+			right_1.repaint();
+			pane.repaint();
+			searchbox.requestFocusInWindow();
 		}
 		
 		if (e.getSource()== compare){	
@@ -481,7 +637,31 @@ public class tactileGUI extends JFrame implements ActionListener, FocusListener,
 			right_3.add(dispLabel);
 			right_3.repaint();
 			pane.repaint();
-		}		
+		}
+		
+		if (e.getSource() == sel_size){
+			sel_size.setEnabled(false);
+			sel_size.setVisible(false);
+			
+			small.setEnabled(true);
+			large.setEnabled(true);
+			medium.setEnabled(true);
+			
+			small.setVisible(true);
+			large.setVisible(true);
+			medium.setVisible(true);
+			small.requestFocusInWindow();
+		}
+		
+		if (e.getSource() == small){
+			size = 1;
+		}
+		if (e.getSource() == medium){
+			size = 2;
+		}
+		if (e.getSource() == large){
+			size = 3;
+		}
 		
 		if (e.getSource() == pick_one){
 			
@@ -494,6 +674,7 @@ public class tactileGUI extends JFrame implements ActionListener, FocusListener,
 			if (searchstr != null || searchbox.getText()!=null){
 				if (searchbox.getText()!= null){
 					searchstr =	searchbox.getText();
+					searchstr.replaceAll("\\W", "");
 				}
 			searchLabel = new JLabel("<html><div style=\"text-align: center;\">" + searchstr + "</html>",SwingConstants.CENTER);
 			searchLabel.setFont(new Font("Arial",Font.BOLD,30));
@@ -547,6 +728,7 @@ public class tactileGUI extends JFrame implements ActionListener, FocusListener,
 			pane.add(right_4);
 			right_4.removeAll();
 			JEditorPane DispPane = new JEditorPane();
+			DispPane.setEditable(false);
 			DispPane.setFont(new Font("Braille", Font.BOLD, 14));
 			right_4.add(DispPane);
 			DispPane.setText(str);
@@ -636,28 +818,138 @@ public class tactileGUI extends JFrame implements ActionListener, FocusListener,
 		right_1.repaint();
 	}
 
+	/**
+     * @param filename the name of the file that is going to be played
+     */
+    public void playSound(String filename){
+
+        String strFilename = filename;
+
+        try {
+            soundFile = new File(strFilename);
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.exit(1);
+        }
+
+        try {
+            audioStream = AudioSystem.getAudioInputStream(soundFile);
+        } catch (Exception e){
+            e.printStackTrace();
+            System.exit(1);
+        }
+
+        audioFormat = audioStream.getFormat();
+
+        DataLine.Info info = new DataLine.Info(SourceDataLine.class, audioFormat);
+        try {
+            sourceLine = (SourceDataLine) AudioSystem.getLine(info);
+            sourceLine.open(audioFormat);
+        } catch (LineUnavailableException e) {
+            e.printStackTrace();
+            System.exit(1);
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.exit(1);
+        }
+
+        sourceLine.start();
+
+        int nBytesRead = 0;
+        byte[] abData = new byte[128000];
+        while (nBytesRead != -1) {
+            try {
+                nBytesRead = audioStream.read(abData, 0, abData.length);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            if (nBytesRead >= 0) {
+                @SuppressWarnings("unused")
+                int nBytesWritten = sourceLine.write(abData, 0, nBytesRead);
+            }
+        }
+
+        sourceLine.drain();
+        sourceLine.close();
+    }
+    
 	@Override
 	public void focusGained(FocusEvent e) {
 		if (e.getSource() == search){
 			rootpane.setDefaultButton(search);
+			if(!iscaption.isSelected()){
+				playSound("search.wav");
+			}
 		}
 		if (e.getSource() == browse){
 			rootpane.setDefaultButton(browse);
+			if(!iscaption.isSelected()){
+				playSound("browse.wav");
+			}
 		}
 		if (e.getSource()== generate){
 			rootpane.setDefaultButton(generate);
+			if(!iscaption.isSelected()){
+					playSound("generate.wav");
+			}
 		}
 		if (e.getSource()== pick_one){
 			rootpane.setDefaultButton(pick_one);
+			if(!iscaption.isSelected()){
+				playSound("choose.wav");
+			}
 		}
 		if (e.getSource()== next){
 			rootpane.setDefaultButton(next);
+			if(!iscaption.isSelected()){
+				playSound("next.wav");
+			}
 		}
 		if (e.getSource() == searchbox){
 			rootpane.setDefaultButton(search);
+			if(!iscaption.isSelected()){
+				playSound("searchbox.wav");
+			}
 		}
 		if (e.getSource() == compare){
 			rootpane.setDefaultButton(compare);
+			if(!iscaption.isSelected()){
+				playSound("compare.wav");
+			}
+		}
+		if (e.getSource()== print){
+			rootpane.setDefaultButton(print);
+			if(!iscaption.isSelected()){
+				playSound("print.wav");
+			}
+		}
+		
+		if (e.getSource() == sel_size){
+			rootpane.setDefaultButton(sel_size);
+			if(!iscaption.isSelected()){
+				playSound("sizeimage.wav");
+			}
+		}
+		
+		if (e.getSource() == small){
+			rootpane.setDefaultButton(small);
+			if(!iscaption.isSelected()){
+				playSound("small.wav");
+			}
+		}
+		
+		if (e.getSource() == large){
+			rootpane.setDefaultButton(large);
+			if(!iscaption.isSelected()){
+				playSound("large.wav");
+			}
+		}
+		
+		if (e.getSource() == medium){
+			rootpane.setDefaultButton(medium);
+			if(!iscaption.isSelected()){
+				playSound("medium.wav");
+			}
 		}
 		
 	}
@@ -746,59 +1038,6 @@ public class tactileGUI extends JFrame implements ActionListener, FocusListener,
 		//  Auto-generated method stub
 		
 	}
-	/**
-     * @param filename the name of the file that is going to be played
-     */
-    public void playSound(String filename){
 
-        String strFilename = filename;
-
-        try {
-            soundFile = new File(strFilename);
-        } catch (Exception e) {
-            e.printStackTrace();
-            System.exit(1);
-        }
-
-        try {
-            audioStream = AudioSystem.getAudioInputStream(soundFile);
-        } catch (Exception e){
-            e.printStackTrace();
-            System.exit(1);
-        }
-
-        audioFormat = audioStream.getFormat();
-
-        DataLine.Info info = new DataLine.Info(SourceDataLine.class, audioFormat);
-        try {
-            sourceLine = (SourceDataLine) AudioSystem.getLine(info);
-            sourceLine.open(audioFormat);
-        } catch (LineUnavailableException e) {
-            e.printStackTrace();
-            System.exit(1);
-        } catch (Exception e) {
-            e.printStackTrace();
-            System.exit(1);
-        }
-
-        sourceLine.start();
-
-        int nBytesRead = 0;
-        byte[] abData = new byte[128000];
-        while (nBytesRead != -1) {
-            try {
-                nBytesRead = audioStream.read(abData, 0, abData.length);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            if (nBytesRead >= 0) {
-                @SuppressWarnings("unused")
-                int nBytesWritten = sourceLine.write(abData, 0, nBytesRead);
-            }
-        }
-
-        sourceLine.drain();
-        sourceLine.close();
-    }
 }
 

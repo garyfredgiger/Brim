@@ -20,6 +20,8 @@ searchname = sys.argv[4]; # Gets the name of the object searched for
 
 iscaption = sys.argv[5]; #Add caption or not? t/f
 
+pixnum = sys.argv[6]; #Gets the size of the image to be generated
+
 brailleText = [' ','a','@','c','1','b','i','f','"','e','^','d','3','h','j','g',"'",'k','/','m','2','l','s','p','9','o','>','n','6','r','t','q',',','*','.','%','5','<','[','$',';',':','_','?','4','\\','w',']','-','u','+','x','8','v','!','&','0','z','#','y','7','(',')','='];
 
 if (not os.path.exists("C:\\out")):
@@ -41,7 +43,7 @@ def findPixelBrightness(pixel):
 def resizeImage(image):
 	height = image.size[1];
 	width = image.size[0];
-	scale = (max(height,width)+83)/84;
+	scale = (max(height,width)+pixnum-1)/pixnum; #83)/84;
 	newHeight = height/scale
 	newWidth = width/scale;
 	resizeImage = image.resize((newWidth,newHeight),Image.BICUBIC);

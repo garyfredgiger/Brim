@@ -1,7 +1,3 @@
-#Madeleine Clute, Aditya Kodkany, Poornima Kaniarasu 
-#July 2013
-
-
 import urllib
 import json
 import urllib2
@@ -22,11 +18,11 @@ searchstr = sys.argv[2]
 
 image_lib = sys.argv[3]
 
-#print numberofcats
+print numberofcats
 
-#print searchstr
+print searchstr
 
-#print image_lib
+print image_lib
 
 #dictionary of the pixel maxes seen on a call of floodfill
 bounding_box = {"top": "none", "bottom": "none", "left": "none", "right":"none"} 
@@ -44,7 +40,7 @@ class MyHTMLParser(HTMLParser):
 # pulls photos off google images and puts them in a folder <query>
 def pullPhotos(query):
 
-	#print "looking for", query
+	print "looking for", query
 	url1 = "https://www.google.com/search?biw=1309&bih=704&sei=bsHjUbvaEILqrQeA-YCYDw&tbs=itp:lineart&tbm=isch&"
 	query2 = urllib.urlencode ( { 'q' : query } )
 	
@@ -53,25 +49,25 @@ def pullPhotos(query):
 	parser = MyHTMLParser()
 	parser.feed(response)	
 
-	print image_lib+os.sep+"buffer"+os.sep+query
+	print image_lib+"\\buffer\\"+query
 
-	if (not os.path.exists(image_lib+os.sep+"buffer")):
-		os.mkdir(image_lib+os.sep+"buffer") # make directory to put them in
+	if (not os.path.exists(image_lib+"\\buffer")):
+		os.mkdir(image_lib+"\\buffer") # make directory to put them in
 
-	if (not os.path.exists(image_lib+os.sep+"buffer"+os.sep+query)):
-		os.mkdir(image_lib+os.sep+"buffer"+os.sep+query) # make directory to put them in
+	if (not os.path.exists(image_lib+"\\buffer\\"+query)):
+		os.mkdir(image_lib+"\\buffer\\"+query) # make directory to put them in
 	
 	for i in xrange(5):
 		req_cat = urllib2.Request(cat_urls[i], headers ={'User-Agent':'Chrome'})
 		response_cat = urllib2.urlopen (req_cat).read()
 		name = query + os.sep + query+str(i)+".jpg"
-		fd = open(image_lib+os.sep+"buffer"+os.sep+name,"wb")
+		fd = open(image_lib+"\\buffer\\"+name,"wb")
 		fd.write(response_cat)
 		fd.close()
-		#print name, "written", "complexity is ", countComponents(image_lib+os.sep+"buffer"+os.sep+name)
+		print name, "written", "complexity is ", countComponents(image_lib+"\\buffer\\"+name)
 		
 
-	#print "done"
+	print "done"
 
 
 def isNotBlank(tup):
@@ -196,7 +192,6 @@ def chooseBestPicture(d):
 	components = map(lambda i: stats[i][0], range(max_consider))
 	disjoints = map(lambda i: stats[i][2], range(max_consider))
 
-	
 	#once you have the stats to consider, get rid of the highest one from
 	#the components, the highest one from the densities, only way to override the rank
 	#is to be more than 1 std dev below the mean
@@ -204,34 +199,32 @@ def chooseBestPicture(d):
 	mean_c = avg(components)
 	stdDev_c = standardDev(components)
 	mean_d = avg(densities)
-	stdDev_d = standardDev(densities)
-	mean_disj = avg(disjoints)
-	stdDev_disj = standardDev(disjoints)
+	stdDev_d = avg(densities)
 
+	#get rid of the maxs
+	files.pop(indexMax(components))
+	densities.pop(indexMax(components))
+	disjoints.pop(indexMax(components))
+	files.pop(indexMax(densities))
 
-	#new idea: go for the 0th result unless another option is less than 
-	# a standard deviation below the average for that category. 
-	denst_bools =  map(lambda x : (mean_d - x > stdDev_d), densities)
-	disjoint_bools = map(lambda x : (mean_disj - x > stdDev_disj), disjoints)
-	comp_bools = map(lambda x: (mean_c - x > stdDev_c), components)
+	#files.pop(indexMax(disjoints))
+	#densities.pop(indexMax(disjoints))
+	#calculate the relative differences
+	#return files[disjoints.index(min(disjoints))]
+	print files[disjoints.index(min(disjoints))]
+	"""
+	dists = map(lambda x : (mean_d - x > stdDev_d), densities)
 
-	totals = [0 for f in files]
-
-	#tally for the metrics
-	for i in xrange(len(files)):
-		if denst_bools[i]:
-			totals[i] += 1
-		if disjoint_bools[i]:
-			totals[i] += 1
-		if comp_bools[i]:
-			totals[i] += 1
-
-	if (max(totals) > 0):
-		# if something seems better
-		ind = totals.index(1) #seems to work better than finding the max
-		print files[ind]
+	if True not in dists:
+		if (indexMin(densities) == indexMin(components)):
+			print "overridden", d
+			return files[indexMin(densities)]
+			
+		return files[0]
 	else:
-		print files[0] #default
+		return files[dists.index(True)]
+
+ 	"""
 
 #takes in an array and gives back the percentage of non-white pixels
 def getFillStats(arr):
@@ -315,12 +308,12 @@ def countComponents(f_name):
 				pass
 			#reset the bounding box dictionary
 	overlap = 1.0 * find_overlap(boxes) 
-	#print "overlap proportion is ", overlap
+	print "overlap proportion is ", overlap
 	return num_comps, percent_filled, overlap
 
 if (numberofcats == '0'):
-	#print "choosing"
-	chooseBestPicture(image_lib+os.sep+"buffer"+os.sep+searchstr)
+	print "choosing"
+	chooseBestPicture(image_lib+"\\buffer\\"+searchstr)
 else:
-	#print "pulling"
+	print "pulling"
 	pullPhotos(searchstr)
